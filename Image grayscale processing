@@ -1,0 +1,15 @@
+matlab图像灰度处理
+% 读取彩色图像
+img = imread('machine butterfly.jpg');
+
+% 转换为灰度图像
+gray_img = rgb2gray(img);
+
+% 显示原始图像和灰度图像
+figure;
+subplot(1, 2, 1);
+imshow(img);
+title('原始彩色图像');
+subplot(1, 2, 2);
+imshow(gray_img);
+title('灰度图像');
