@@ -1,4 +1,4 @@
-matlab图像灰度处理
+%matlab图像灰度处理
 % 读取彩色图像
 img = imread('machine butterfly.jpg');
 
