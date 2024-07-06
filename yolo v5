@@ -1,0 +1,19 @@
+# 人脸识别项目
+
+## 项目简介
+这是一个基于YOLO v5和PcaNET算法的人脸识别项目，包含人脸数据采集、特征提取和自动识别追踪功能。
+
+## 技术细节
+- 使用YOLO v5算法进行数据ji和学习
+- 利用PcaNET算法进行图像特征提取
+- 通过线性滤波器进行目标识别和追踪
+
+## 使用说明
+1. 克隆此项目：`git clone https://github.com/your-username/facial-recognition-project.git`
+2. 安装依赖：`pip install -r requirements.txt`
+3. 运行主程序：`python main.py`
+
+## 项目成果
+- 成功采集并清洗了上千张人脸数据
+- 实现了高效的特征提取和识别追踪算法
+
