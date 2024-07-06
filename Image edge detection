@@ -1,0 +1,16 @@
+%matlab图像边缘检测
+% 读取灰度图像
+gray_img = rgb2gray(imread('machine butterfly.jpg'));
+
+% 进行边缘检测
+edges = edge(gray_img, 'Canny');
+
+% 显示原始图像和边缘检测结果
+figure;
+subplot(1, 2, 1);
+imshow(gray_img);
+title('灰度图像');
+
+subplot(1, 2, 2);
+imshow(edges);
+title('Canny 边缘检测');
